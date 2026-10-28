@@ -1,0 +1,20 @@
+// Auto-generated prebuilt Blueprint for hardware/gps
+// Extracted from APEX package: org.blisslabs.ag.gps
+
+package {
+    default_applicable_licenses: ["Android-Apache-2.0"],
+}
+
+prebuilt_apex {
+    name: "org.blisslabs.ag.gps",
+    apex_name: "gps",
+    source_apex_name: "gps",
+    arch: {
+        x86_64: {
+            src: "org.blisslabs.ag.gps-14000001.apex",
+        },
+    },
+    filename: "org.blisslabs.ag.gps-14000001.apex",
+    prefer: true,
+    installable: true,
+}
